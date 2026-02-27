@@ -1,3 +1,6 @@
+//find an element
+
+
 let array=[10,30,20,60,50]
 
 function searchTarget(array,t){
@@ -12,3 +15,4 @@ function searchTarget(array,t){
 
 }
 console.log(searchTarget(array,100));
+
