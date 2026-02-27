@@ -1,3 +1,5 @@
+//biggest of three numbers
+
 let a=10
 let b=20
 let c=30
@@ -13,5 +15,6 @@ function largestOfThree(a,b,c){
         console.log("C +",c,"is greatest")
     }
 }
+
 
 largestOfThree(a,b,c);
