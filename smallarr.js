@@ -1,3 +1,6 @@
+//smallest marks 
+
+
 let marks=[90,70,40,65,90]
 let smallest=marks[0]
 for(let i=1;i<marks.length;i++)
@@ -6,3 +9,4 @@ for(let i=1;i<marks.length;i++)
         smallest=marks[i]
 }
 console.log("Smallest =",smallest)
+
