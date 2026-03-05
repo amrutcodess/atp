@@ -8,19 +8,19 @@ const transactions = [
   { id: 4, type: "debit", amount: 3000 }
 ];
 
-// 1. filter() all credit transactions
+
 let creditTransactions = transactions.filter((transaction) => {
   return transaction.type === "credit"
 })
 console.log("Credit Transactions:", creditTransactions)
 
-// 2. map() to extract only transaction amounts
+
 let amounts = transactions.map((transaction) => {
   return transaction.amount
 })
 console.log("Transaction Amounts:", amounts)
 
-// 3. reduce() to calculate final account balance
+
 let balance = transactions.reduce((acc, transaction) => {
   if(transaction.type === "credit"){
     return acc + transaction.amount
@@ -31,14 +31,15 @@ let balance = transactions.reduce((acc, transaction) => {
 }, 0)
 console.log("Final Account Balance:", balance)
 
-// 4. find() the first debit transaction
+
 let firstDebit = transactions.find((transaction) => {
   return transaction.type === "debit"
 })
 console.log("First Debit Transaction:", firstDebit)
 
-// 5. findIndex() of transaction with amount 10000
+
 let tenThousandIndex = transactions.findIndex((transaction) => {
   return transaction.amount === 10000
 })
 console.log("Index of 10000 Amount Transaction:", tenThousandIndex)
+
