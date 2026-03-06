@@ -1,0 +1,1 @@
+// Contents of advArray1.js
